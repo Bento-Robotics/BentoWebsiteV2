@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Comfortaa; /* set name */
+  src: url(Comfortaa-Regular.ttf); /* url of the font */
+}
+
+@font-face {
+  font-family: Neon-Vampire; /* set name */
+  src: url("Neon Vampire.ttf"); /* url of the font */
+}
+
+/*für alle paragraphen:*/
+body {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 1.2em;
+}
+
+h1 {
+  font-family: "Neon-Vampire", monospace;
+}
+
 .bento-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 columns */
@@ -15,8 +35,8 @@
 
 /* Bento boxes */
 .bento-section {
-  background-color: #CE0B27;
-  border: 5px solid #EF3030;
+  background-color: #EF3030;
+  border: 5px solid #CE0B27;
   border-radius: 16px;
   display: flex;
   flex-direction: column;

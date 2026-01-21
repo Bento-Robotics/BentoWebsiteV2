@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bento Grid 4x3</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bento Infopage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,16 +12,47 @@
     <div class="bento-container">
 
         <!-- Big box spanning 2 columns x 2 rows -->
-        <section class="bento-section wide"><img src="./WLS_Robotics.jpeg" height="180" width="180">WLS Robotics</section>
-        
-        <section class="bento-section big"><font size="5">About Us</font><font size="4">WLS robotics formed in early 2021, as Prof. Dr. Stefan May of the OHM university stumbled across an extracurricular technology course offered by our school, the WLS, and decided to lend support and introduce the world of robotics.<br><br>We lay focus on creating simple and easy-to-maintain educational robots using ROS, micro-ROS, EduArt's drive system and off-the-shelf electronics, with the goal of acquiring and passing on the skills and knowledge required to work on mobile platforms, be it mechanics, electronics, software or just plain old troubleshooting.</font></section>
+        <section class="bento-section wide" style="display: table">
+            <!--height so hoch dass es im Kasten zentriert ausschaut-->
+            <!--border-radius macht die runden Ecken (50% wäre ein Kreis)-->
+            <img src="./WLS_Robotics.jpeg" height="220px" style="float: left; padding: 10px; border-radius: 30%">
+            <h1 style="float: left; font-size: 4em; padding-left: 25px; margin-top: 40px; margin-bottom: 0">WLS<br>Robotics</h1>
+        </section>
+
+
+        <section class="bento-section big">
+            <h2>About Us</h2>
+            <p>WLS robotics formed in early
+            2021, as Prof. Dr. Stefan May of the OHM university stumbled across an extracurricular technology course
+            offered by our school, the WLS, and decided to lend support and introduce the world of robotics.<br><br>We
+            lay focus on creating simple and easy-to-maintain educational robots using ROS, micro-ROS, EduArt's drive
+            system and off-the-shelf electronics, with the goal of acquiring and passing on the skills and knowledge
+            required to work on mobile platforms, be it mechanics, electronics, software or just plain old
+            troubleshooting.</p>
+        </section>
 
         <section class="bento-section tall">Tall Box for QR Codes</section>
 
-        <section class="bento-section"><font size="5">KA was hier hin kommt</font></section>
-        <section class="bento-section"><font size="2">This is Zyklop, our initial robot. It was our first real experience with ROS and professional robotics.<br><br>Zyklop is great at navigating rough terrain but has a deficit of sensors.</font></section>
-        <section class="bento-section"><font size="2">Bento-Box was the second addition to our robot family. It was be used at the Robocup in Bordeaux.<br><br>We chose the name mostly so that we can call it the bento \'Box\', but also because we presume it\'ll end up looking like a box, since this happened with Zyklop.</font></section>
-        <section class="bento-section"><font size="2">Bento-Box really struggles at climbing ledges and stairs. As EduArt offered us new hardware, we decided to try out a flipper-based robot, naming it Schäufele.<br><br>We are still learning how to make articulated tracks behave nicely, so Schäufele can be difficult at times.</font></section>
+        <section class="bento-section"><h1>KA was hier hin kommt</h1></section>
+
+        <section class="bento-section">
+            <p>This is Zyklop, our initial robot. It was our first real
+            experience with ROS and professional robotics.<br><br>Zyklop is great at navigating rough terrain but has a
+            deficit of sensors.</p>
+        </section>
+
+        <section class="bento-section">
+            <p>Bento-Box was the second addition to our robot family. It was be
+            used at the Robocup in Bordeaux.<br><br>We chose the name mostly so that we can call it the bento \'Box\',
+            but also because we presume it\'ll end up looking like a box, since this happened with Zyklop.</p>
+        </section>
+
+        <section class="bento-section">
+            <p>Bento-Box really struggles at climbing ledges and stairs. As
+            EduArt offered us new hardware, we decided to try out a flipper-based robot, naming it Schäufele.<br><br>We
+            are still learning how to make articulated tracks behave nicely, so Schäufele can be difficult at
+            times.</p>
+        </section>
     </div>
 
 </section>
